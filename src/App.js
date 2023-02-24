@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import contacts from './contacts.js';
+import contacts from './components/contacts.js';
 import Card from './components/Card.jsx';
 
 export default function App() {
