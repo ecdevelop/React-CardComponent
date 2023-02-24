@@ -1,14 +1,12 @@
 import React from 'react';
-import Contacts from './contacts.js';
 import Avatar from './Avatar.jsx';
-import Telephone from './Telephone.jsx';
-import Email from './Email.jsx';
 import Detail from './Detail.jsx';
 
 function Card(props) {
   return (
     <div className="card">
       <div className="top">
+        <p> {props.id} </p>
         <h2 className="name">{props.name}</h2>
         <Avatar img={props.img} />
       </div>
