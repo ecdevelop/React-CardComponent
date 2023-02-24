@@ -1,7 +1,6 @@
 import React from 'react';
 import Contacts from './contacts.js';
 import Avatar from './Avatar.jsx';
-import Contacts from 'contacts.js';
 
 function Card(props) {
   return (
